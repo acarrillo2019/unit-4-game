@@ -1,2 +1,5 @@
 # unit-4-game
-The CrystalsCollector game is a Coding Bootcamp homewrok assignment.
+The Crystals Collector game is a Coding Bootcamp homework assignment.
+
+Changes since last version:
+- Added initial project files

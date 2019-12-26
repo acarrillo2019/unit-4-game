@@ -1,8 +1,8 @@
 body {
-    background-image: url("/assets/images/diamonds.jpg");
+    background-image: url("../images/diamonds.jpg");
     background-position: center;
     background-size: cover;
-   }
+}
 
 #secondRow {
     background-color: #fff3e0;
@@ -18,7 +18,11 @@ body {
 
 .jewelImages {
     border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 110px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 110px;
+}
+
+.jewelImages:hover {
+    opacity: .7;
 }

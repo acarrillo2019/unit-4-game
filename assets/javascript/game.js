@@ -27,10 +27,17 @@ Here's how the app works:
    * The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 */
 
-let jewel1 = $("#jewel1") 
-let jewel2 = $("#jewel2")
-let jewel3 = $("#jewel3")
-let jewel4 = $("#jewel4")
+let jewel1; // = $("#jewel1") 
+let jewel2; // = $("#jewel2")
+let jewel3; // = $("#jewel3")
+let jewel4; //= $("#jewel4")
+
+var playerScore;
+var randomScore;
+var wins = 0;
+var losses = 0;
+
+let assign1;
 
 const jewelValues = [1, 5, 25 ,50]
 
@@ -46,29 +53,34 @@ const numArray = () => {
 }
 
 const assignValues = () => { 
-   var assign1 = jewelValues[Math.floor(Math.random() * jewelValues.length)];
-   let jewel1 = assign1;
-      if (jewel1 = 1) {
+   ser = jewelValues[Math.floor(Math.random() * jewelValues.length)];
+   //var pop1 = assign1;
+    /*  if (assign1 = 1) {
+         jewel1 = 1;
          jewel2 = 50;
          jewel3 = 5;
          jewel4 = 25;
-      } else if (jewel1 = 5) {
+      } else if (assign1 = 5) {
+         jewel1 = 5;
          jewel2 = 1;
          jewel3 = 50;
          jewel4 = 25;
-      } else if (jewel1 = 25) {
+      } else if (assign1 = 25) {
+         jewel1 = 25;
          jewel2 = 50;
          jewel3 = 1;
          jewel4 = 5
-      } else if (jewel1 = 50) {
+      } else if (assign1 = 50) {
+         jewel1 = 50;
          jewel2 = 1;
          jewel3 = 25;
-         jewel4 = 5;
-      }
+         jewel4 = 5;   
+      } */
+
 
 }
 
-
+console.log(assignValues())
 console.log(numArray())
 
 });

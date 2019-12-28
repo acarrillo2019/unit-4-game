@@ -2,5 +2,5 @@
 The CrystalsCollector! game is a Coding Bootcamp homework assignment.
 
 Changes since last version:
-- Added images to html
-- Basic styling to images
+- Added array of Crystal values
+- Added random number generator of range of numbers from 19 to 99

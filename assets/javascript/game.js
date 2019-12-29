@@ -77,10 +77,14 @@ const assignValues = () => {
          jewel4 = 5;   
       } */
 
-
+      console.log(assignValues())
 }
 
-console.log(assignValues())
-console.log(numArray())
+
+
+
+$("#thirdRowBox").html(numArray);
+$("#wins").html(wins);
+$("#losses").html(losses);
 
 });

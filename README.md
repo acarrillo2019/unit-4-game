@@ -2,4 +2,6 @@
 The CrystalsCollector! game is a Coding Bootcamp homework assignment.
 
 Changes since last version:
-- Wrote code in JS and HTML files
+- Added randomization of Gem values and Random Score
+- Adjusted JS code and deleted unused code including Pseudo code
+- Adjusted HTML and CSS for mock facade

@@ -8,9 +8,30 @@ body {
     background-size: cover;
 }
 
+.container {
+    opacity: .9;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+#headingRow {
+    margin-top: 80px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
 #secondRow {
     background-color: #fff3e0;
- 
 }
 
 #thirdRowBox {

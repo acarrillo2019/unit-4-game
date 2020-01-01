@@ -15,14 +15,14 @@
   </head>
   <body>
     <div class="container">
-        <div class="row" id="headingRow">
-          <div class="col-md-12 bg-warning py-5 d-flex justify-content-center align-items-center">
+        <div class="row" >
+          <div id ="headingRow" class="col-md-12 bg-warning py-5 d-flex justify-content-center align-items-center">
             <span><h2>Crystals Collector!</h2></span>
             
           </div>
         </div>
         <div class="row">
-            <div class="col-md-12 py-5  justify-content-center align-items-center" id="secondRow">
+            <div class="col-md-6 py-5  justify-content-center align-items-center" id="secondRow">
                 <p>You will be given a random number at the start of the game.</p>
 
                 <p> There are four crystals below. By clicking on a crystal you will add a specific
@@ -35,54 +35,39 @@
                 
                 <p> Each time when the game starts, the game will change the values of each crystal.</p>
             </div>
-          </div>
+            <div class="col-md-6 d-flex justify-content-center" id="statusCon">
+              <div class="row">
+                <div class="col-md-12 d-flex justify-content-center align-items-center" id="status"></div>
+              </div>
+            </div>
+        </div>
 
-          <div class="row">
+          <div class="row" >
             <div class="col-md-2"></div>
-            <div class="col-md-8 pb-3 d-flex justify-content-around">
+            <div class="col-md-8 d-flex justify-content-around">
                 <span><img class="jewelImages" id="jewel1" src="assets/images/bluegem.jpeg"></span>
                 <span><img class="jewelImages" id="jewel2" src="assets/images/greengem.jpg"></span>
                 <span><img class="jewelImages" id="jewel3" src="assets/images/purplegem.jpeg"></span>
                 <span><img class="jewelImages" id="jewel4" src="assets/images/saphire.jpeg"></span>
             </div>
-            <div class="col-md-2"></div>
+            
           </div>
 
-          <div class="row">
-                    <div class="col-md-6 d-flex justify-content-center" id="thirdRowBox" alt="randomscore">
-                        <h5>Target Score:</h5>
+          <div class="row" id="dataRow">
+                    <div class="col-md-3 d-flex justify-content-center align-items-center" id="thirdRowBox" alt="randomscore">
+                        <h5>Target Score: <span id="randomScore"></span></h5>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center" id="yourTotal">
-                        <h5>Your Score:</h5>
+                    <div class="col-md-3 d-flex justify-content-center align-items-center" id="yourTotal">
+                        <h5>Your Score: <span id="playerScore"></span></h5>
                     </div>
+                    <div class="col-md-3 pt-3 d-flex justify-content-center align-items-center">
+                      <h5>Wins: <span id="wins"></span></h5>
+                    </div>
+                    <div class="col-md-3 pt-3 d-flex justify-content-center align-items-center">
+                      <h5>Losses: <span id="losses"></span></h5>
           </div>
-
-          <div class="row">
-            <div class="col-md-6 py-5 d-flex justify-content-center align-items-center">
-              <h3 id="randomScore"></h3>
-            </div>
-            <div class="col-md-6 py-5 d-flex justify-content-center align-items-center">
-              <!-- Player Score -->
-              <h3 id="playerScore"></h3>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6 pt-3 d-flex justify-content-center align-items-center">
-              <h5>Wins: <span id="wins"></span></h5>
-            </div>
-            <div class="col-md-6 pt-3 d-flex justify-content-center align-items-center">
-              <h5>Losses: <span id="losses"></span></h5>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4 d-flex justify-content-center">
-              <h2 id="status"></h2>
-            </div>
-            <div class="col-md-4"></div>
-          </div>
+          
+          
           
       </div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

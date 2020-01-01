@@ -122,8 +122,12 @@ function getRandomPower(pa) {
     return power;
 }
 
+/* Removed because the resize enlarges the page
+
 $('.jewelImages').on('mouseenter', event => {
     $(event.currentTarget).addClass('photo-active')
   }).on('mouseleave', event => {
     $(event.currentTarget).removeClass('photo-active')
   })
+
+  */

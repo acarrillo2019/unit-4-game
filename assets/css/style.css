@@ -24,11 +24,17 @@ h2, h3, h4, h5 {
 }
 
 #headingRow {
-    margin-top: 40px;
+    margin-top: 2px;
+    height: 15px;
+    text-align: center;
 }
 
 .row {
-    margin-top: 20px;
+    margin-top: 15px;
+}
+
+#dataRow {
+    margin-top: 0px;
 }
 
 #secondRow {
@@ -74,6 +80,13 @@ h2, h3, h4, h5 {
     opacity: .7;
 }
 
+#statusCon {
+    background-color: peachpuff;
+}
+
 #status {
     color: white;
+    font-size: 100px;
+    margin-top: -50px;
+    
 }

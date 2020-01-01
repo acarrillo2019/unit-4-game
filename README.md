@@ -2,4 +2,6 @@
 The CrystalsCollector! game is a Coding Bootcamp homework assignment.
 
 Changes since last version:
-- Made HTML & CSS adjustments
+- Added event listener to gems
+- Added sounds to gem on click
+- Added win and lose sounds

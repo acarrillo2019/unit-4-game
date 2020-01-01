@@ -5,7 +5,8 @@ html {
 body {
     background-image: url("../images/diamonds.jpg");
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    background-color: black;
 }
 
 .container {
@@ -17,13 +18,13 @@ h1 {
     text-align: center;
 }
 
-h2 {
+h2, h3, h4, h5 {
     color: white;
     text-align: center;
 }
 
 #headingRow {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .row {
@@ -60,6 +61,13 @@ h2 {
     border-radius: 4px;
     padding: 5px;
     width: 110px;
+}
+
+.photo-active {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 140px;
 }
 
 .jewelImages:hover {

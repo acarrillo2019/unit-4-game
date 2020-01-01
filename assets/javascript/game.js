@@ -19,11 +19,13 @@ $(document).ready(function() {
             wins++;
             $("#status").html("You Win!");
             $("#status").fadeIn();
+            winSound.play()
             resetGame();
         } else if (playerScore > randGet) {
             losses++;
             $("#status").html("You Lose!");
             $("#status").fadeIn();
+            loseSound.play()
             resetGame();
         }
     });
@@ -33,6 +35,18 @@ var playerScore;
 var randGet;
 var wins = 0;
 var losses = 0;
+
+var gemSound = document.createElement("audio")
+gemSound.setAttribute("src", "assets/sounds/stairs.mp3")
+var winSound = document.createElement("audio")
+winSound.setAttribute("src", "assets/sounds/chimes1.wav")
+var loseSound = document.createElement("audio")
+loseSound.setAttribute("src", "assets/sounds/croak.mp3")
+
+$(".jewelImages").on("click", function(){
+    gemSound.play()
+    gemSound.currentTime=0;
+})
 
 var jewel1 = new Gem();
 var jewel2 = new Gem();

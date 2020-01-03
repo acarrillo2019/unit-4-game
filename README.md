@@ -2,7 +2,7 @@
 
 The CrystalsCollector! game is a Coding Bootcamp homework assignment.
 
-The purpose of this assignment was to create a game using Javascript.
+The purpose of this assignment was to create a game using jQuery.
 
 How to Play:
 

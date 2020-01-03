@@ -5,8 +5,11 @@ html {
 body {
     background-image: url("../images/diamonds.jpg");
     background-position: center;
-    background-size: auto;
+    background-position-y: 100%;
+    background-size: 183vh;
+    background-repeat: no-repeat;
     background-color: black;
+    font-family: fantasy;
 }
 
 .container {
@@ -82,6 +85,7 @@ h2, h3, h4, h5 {
 
 #statusCon {
     background-color: peachpuff;
+    height: 51vh;
 }
 
 #status {
